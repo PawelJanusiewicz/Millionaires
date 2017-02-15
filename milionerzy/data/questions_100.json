@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Zwarta grupa zawodników jadących w wyścigu kolarskim to:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "aktyw",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "peleton",
+          "correct": true
+        },
+        {
+          "id": 3,
+          "answer": "konwój",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "plejada",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Który z wymienionych pojazdów nie jest wyposażony w gąsienice ?",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "czołg",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "ratrak",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "autokar",
+          "correct": true
+        },
+        {
+          "id": 4,
+          "answer": "koparka",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Mężczyzna zabiegający o względy kobiety to:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "administrator",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "orator",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "kombinator",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "adorator",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "W aeroklubie nie jest zrzeszony:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "spadochroniarz",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "autopilot",
+          "correct": true
+        },
+        {
+          "id": 3,
+          "answer": "modelarz lotniczy",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "pilot sportowy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Który z wymienionych ptaków nie potrafi latać ?",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "orzeł",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "tukan",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "struś",
+          "correct": true
+        },
+        {
+          "id": 4,
+          "answer": "albatros",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

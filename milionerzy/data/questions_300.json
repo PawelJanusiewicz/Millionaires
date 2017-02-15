@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Sport wodny uprawiany na desce z żaglem to:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "skateboard",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "surfing",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "windsurfing",
+          "correct": true
+        },
+        {
+          "id": 4,
+          "answer": "bojery",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Kto był prezydentem Rzeczypospolitej Polskiej bezpośrednio przed Lechem Wałęsą ?",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Czesław Kiszczak",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "Mieczysław Rakowski",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "Wojciech Jaruzelski",
+          "correct": true
+        },
+        {
+          "id": 4,
+          "answer": "Aleksander Kwaśniewski",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Urządzenie służące do nagrywania i odtwarzania wiadomości w telefonie komórkowym to:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "toner",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "faks",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "poczta głosowa",
+          "correct": true
+        },
+        {
+          "id": 4,
+          "answer": "poczta elektroniczna",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Powłoka na naczyniach kuchennych zapobiegająca przywieraniu potraw to:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "poliester",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "teflon",
+          "correct": true
+        },
+        {
+          "id": 3,
+          "answer": "akryl",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "winyl",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Bohaterem jakiej powieści Henryka Sienkiewicza jest Jurand ze Spychowa ?",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "W pustyni i w puszczy",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "Quo Vadis",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "Potop",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "Krzyżacy",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

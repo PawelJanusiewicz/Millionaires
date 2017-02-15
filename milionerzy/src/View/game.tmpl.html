@@ -1,0 +1,66 @@
+{% include 'header.tmpl.html' with {'contentWrapperClass': 'columns'} %}
+
+{% include 'userStatus.tmpl.html' %}
+    <div id="mainWindow" class="contentBorder column">
+        <div class="question">{{final_question.getQuestion()}}</div>
+
+        {% if final_question.isAnswer() %}
+            {% if final_question.isUserAnswerCorrect() %}
+                <div><h2>Dobra odpowiedź. Wygrałeś {{ winPrize }}zł !!!</h2>
+                    Czychcesz grać dalej? <a href="?action=nextLevel" style="color: #dd4444">Dalej</a>
+                </div>
+            {% else %}
+                <div><h2>Zła odpowiedź. Wygrałeś {{ winPrize }}zł !!!</h2></div>
+            {% endif %}
+        {% endif %}
+
+        <ul class="answers">
+
+            {% for answer in final_question.getAnswers()%}
+            <li
+
+                    {% if not answer.isActive() %}
+                        class="selected"
+                    {% endif %}
+
+
+                    {% if final_question.isAnswer() %}
+                        {% if answer.isCorrect() %}
+                            class="correctAnswer"
+                        {% elseif answer.isSelected() %}
+                            class="incorrectAnswer"
+                        {% endif %}
+                    {% endif %}
+                    id="ans_{{answer.getId()}}"><a{% if not final_question.isAnswer() %} href="?action=game&answerId={{answer.getId()}}"{% endif %}><span>{{answer_symbol[loop.index0]}}</span>
+            {{answer.getAnswer()}}</a>
+            </li>
+            {%endfor%}
+             <!--
+            <li><span>A</span>Lorem ipsum dolor</li>
+            <li class="selected"><span>B</span>Lorem ipsum dolor</li>
+            <li class="correctAnswer"><span>C</span>Lorem ipsum dolor</li>
+            <li class="incorrectAnswer"><span>D</span>Lorem ipsum dolor</li>
+             -->
+        </ul>
+    </div>
+    <div id="winPrizeWindow" class="column">
+        <ul class="lifebuoy">
+            {% set wheelName = 'fiftyfifty' %}
+            <li{% if wheelName in usedWheels %} class="used">50/50{% else %}><a href="?action=useWheel&wheel={{ wheelName }}">50/50</a>{% endif %}</li>
+
+            {% set wheelName = 'publicQuestion' %}
+            <li{% if wheelName in usedWheels %} class="used">Pytanie do publiczności{% else %}><a href="?action=useWheel&wheel={{ wheelName }}">Pytanie do publiczności</a>{% endif %}</li>
+
+            {% set wheelName = 'expertQuestion' %}
+            <li{% if wheelName in usedWheels %} class="used">Pytanie do experta{% else %}><a href="?action=useWheel&wheel={{ wheelName }}">Pytanie do experta</a>{% endif %}</li>
+
+            {% set wheelName = 'changeQuestion' %}
+            <li{% if wheelName in usedWheels %} class="used">Wymiana pytania{% else %}><a href="?action=useWheel&wheel={{ wheelName }}">Wymiana pytania</a>{% endif %}</li>
+        </ul>
+        <ul class="winPrizes">
+            
+            <li id="prizesLoader">Ładowanie wygranych</li>
+
+        </ul>
+    </div>
+{% include 'footer.tmpl.html' %}

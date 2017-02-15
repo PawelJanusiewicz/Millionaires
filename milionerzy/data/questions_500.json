@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Kanał Sueski stanowi umowną granicę między:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Amerykami",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "Afryką i Azją",
+          "correct": true
+        },
+        {
+          "id": 3,
+          "answer": "Australią i Azją",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "Kanadą i Grenlandią",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Jak w krawiectwie nazywa się rodzaj zapięcia działającego na zasadzie wtyczki i gniazda ?",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "zatrzask",
+          "correct": true
+        },
+        {
+          "id": 2,
+          "answer": "rzep",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "suwak",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "haftka",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "W którym filmie Romana Polańskiego, Mia Farrow spodziewa się dziecka diabła ?",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Lokator",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "Wstręt",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "Matnia",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "Dziecko Rosemary",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Kim według mitów greckich byli cyklopi ?",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "żeglarzami",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "władcami mórz",
+          "correct": true
+        },
+        {
+          "id": 3,
+          "answer": "jednookimi olbrzymami",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "bogami",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Kto stoi na czele korpusu dyplomatycznego akredytowanego w danym państwie ?",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "dziekan",
+          "correct": true
+        },
+        {
+          "id": 2,
+          "answer": "dyrektor",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "rektor",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "minister",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

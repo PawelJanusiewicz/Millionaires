@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+body {
+    font: 14px/18px normal sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+    background-color: #083E83;
+}
+h1 {
+    font: 50px/55px normal sans-serif;
+    font-family: 'Poiret One', sans-serif;
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 10px 0;
+}
+h3 {
+    font-size: 1.4em;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.stdBtn {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 2.2em;
+    background-color: #000000;
+    border: 2px solid #9CBBD2 ;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    border-radius: 30px;
+    cursor: pointer;
+    }
+    .stdBtn a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .stdBtn:hover {
+        text-decoration: none;
+        background-color: #FAA21B;
+        color: #000000;
+    }
+#contentWrapper{
+    width: 1200px;
+    min-height: 600px;
+    overflow: hidden;
+    margin: auto;
+    }
+    #contentWrapper.columns{
+        display: table;
+        height: 100%;
+    }
+
+.contentBorder {
+    border: 4px solid #90BCF0;
+    padding: 20px;
+ }
+
+.column {
+    display: table-cell;
+}
+
+.wide {
+    width: 95%;
+}
+
+#loginForm {
+    text-align: center;
+    }
+    #loginForm form{
+        margin-top: 30px;
+        font-size: 1.2em;
+    }
+    #loginForm label{
+        display: inline-block;
+        text-align: right;
+        width: 400px;
+        margin-right: 10px;
+    }
+    #loginForm input{
+        padding: 5px;
+    }
+    #loginForm button {
+        margin: 20px auto;
+        display: block;
+        width: 200px;
+        font-size: 1.1em;
+        text-align: center;
+    }
+
+#userInfo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    }
+    #userInfo .logout{
+        color: #FAA21B;
+    }
+    #userInfo .logout:hover{
+        color: #FFD8B8;
+    }
+
+#mainWindow {
+    width: 70%;
+    margin-top: 10px;
+    position: relative;
+    }
+    #mainWindow p {
+        text-align: justify;
+    }
+
+
+.rules {
+    margin: 20px 50px;
+    list-style-type: circle;
+}
+
+.question{
+    background-color: #000;
+    border: 4px solid #90BCF0;
+    font-size: 2em;
+    line-height: 2em;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.answers {
+    position: absolute;
+    left: auto;
+    bottom: 30px;
+    overflow: hidden;
+    }
+    .answers li{
+        margin: 10px;
+        width: 340px;
+        background-color: #000;
+        border: 4px solid #90BCF0;
+        font-size: 1.3em;
+        line-height: 1.3em;
+        text-align: center;
+        padding: 10px;
+        border-radius: 20px;
+        float: left;
+        }
+        .answers li:hover{
+            color: #000;
+            background-color: #FAA21B;
+            cursor: pointer;
+        }
+        .answers li a{
+            text-decoration: none;
+            color: #FFF;
+        }
+        .answers li span{
+            color: #FAA21B;
+            text-transform: uppercase;
+            display: inline-block;
+            width: 20px;
+            text-align: center;
+            margin-right: 10px;
+        }
+        .answers li:hover a,
+        .answers li:hover span
+        {
+            color: #000;
+        }
+        .answers li.correctAnswer,
+        .answers li.correctAnswer span {
+            background-color: #57C17B;
+            color: #000;
+        }
+        .answers li.selected,
+        .answers li.selected span {
+            background-color: #90BCF0;
+            color: #000;
+        }
+        .answers li.incorrectAnswer,
+        .answers li.incorrectAnswer span {
+            background-color: #ff3b00;
+            color: #000;
+        }
+#winPrizeWindow {
+    border: 4px solid #90BCF0;
+    width: 30%;
+    border-left: none;
+    margin-top: 10px;
+    background-color: #000000;
+    padding: 20px;
+    }
+    #winPrizeWindow .lifebuoy{
+        overflow: hidden;
+        }
+        #winPrizeWindow .lifebuoy li {
+            margin: 10px 20px;
+            float: left;
+            background-color: #000369;
+            border: 2px solid #90BCF0;
+            border-radius: 35px;
+            padding: 10px;
+            width: 80px;
+            text-align: center;
+            font-weight: bold;
+        }
+        #winPrizeWindow .lifebuoy :hover {
+            text-decoration: none;
+            background-color: #FAA21B;
+            color: #000000;
+        }
+        #winPrizeWindow .lifebuoy li a {
+            text-decoration: none;
+            color: #FFF;
+        }
+        #winPrizeWindow .lifebuoy li:hover a {
+            color: #000000;
+        }
+
+.winPrizes {
+    font-size: 1.7em;
+    font-weight: 700;
+    color: #FF9900;
+    margin: 20px auto 5px auto;
+    padding-left: 30px;
+    }
+    .winPrizes li {
+        padding: 5px;
+        }
+        .winPrizes li span{
+            display: inline-block;
+            width: 60px;
+            text-align: right;
+            margin-right: 30px;
+        }
+    .winPrizes li.guarantee {
+        color: #FFF;
+    }
+    .winPrizes li.guarantee.actual,
+    .winPrizes li.actual {
+        color: #0073b9;
+    }
+

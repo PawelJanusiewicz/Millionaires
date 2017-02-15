@@ -1,0 +1,141 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Co oznacza nazwa „frutti di mare” ?",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "owoce morza",
+          "correct": true
+        },
+        {
+          "id": 2,
+          "answer": "owoce cytrusowe",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "owoce leśne",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "owoce tropikalne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "W jaki dzień tygodnia Robinson Crusoe spotkał swego towarzysza niedoli ?",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "w poniedziałek",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "w środę",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "w czwartek",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "w piątek",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Co, według Biblii, było białe jak ziarno kolendra i miało smak placka z miodem ?",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "ambrozja",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "manna",
+          "correct": true
+        },
+        {
+          "id": 3,
+          "answer": "rosa niebieska",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "nektar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Przedmiot sporu to inaczej:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "kość niezgody",
+          "correct": true
+        },
+        {
+          "id": 2,
+          "answer": "cierń niezgody",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "ość niezgody",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "szydło z worka",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Wielokątem o najmniejszej liczbie boków jest:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "trapez",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "kwadrat",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "trójkąt",
+          "correct": true
+        },
+        {
+          "id": 4,
+          "answer": "romb",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+

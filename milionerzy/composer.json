@@ -1,0 +1,15 @@
+{
+  "name": "sda/millionaire",
+  "description": "Gra milionerzy tworzona wspólnie",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "require": {
+    "twig/twig": "~1.0",
+    "doctrine/dbal": "v2.5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sda\\Millionaires\\": "src/"
+    }
+  }
+}

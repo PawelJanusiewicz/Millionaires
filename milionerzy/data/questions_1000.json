@@ -1,0 +1,138 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Andrzej Grubba to wielokrotny medalista:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "w siatkówce",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "w badmintonie",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "w tenisie stołowym",
+          "correct": true
+        },
+        {
+          "id": 4,
+          "answer": "w tenisie ziemnym",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Do jakiego morza wpływa rzeka Dunaj ?",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "do Morza Białego",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "do Morza Żółtego",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "do Morza Czarnego",
+          "correct": true
+        },
+        {
+          "id": 4,
+          "answer": "do Morza Czerwonego",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Wędzisko jest częścią:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "wędki",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "uzdy",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "kagańca",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "sieci rybackiej",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Amerykańska ambasador przy ONZ i pierwsza kobieta na stanowisku sekretarza stanu w USA to:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Hillary Clinton",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "Madeleine Albright",
+          "correct": true
+        },
+        {
+          "id": 3,
+          "answer": "Rosalind Franklin",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "answer": "Emmeline Pankhurst",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Zamiar wyprzedzania (względnie: omijania) w pojeździe mechanicznym sygnalizowany jest:",
+      "answers": [
+        {
+          "id": 1,
+          "answer": "światłami stopu",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "answer": "światłami postojowymi",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "answer": "kierunkowskazem",
+          "correct": true
+        },
+        {
+          "id": 4,
+          "answer": "krótkim klaksonem",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
